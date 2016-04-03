@@ -2,12 +2,12 @@
 #MK-test is my first program in the github,of course,I have wroten some code by Visual Basic.NET.
 #This version is a VBA function,this is the begining for me,I will copy the code what I have written in this website.
 
+'-----------------------------------------------------------------------------------------------------------------------'
+'MK检验，时间序列设定为100个元素。
+'对这个函数的可靠性需要修改。
 Private sngData(100) As Single
 Private sngDataOpposite(100) As Single
 
-'MK检验，时间序列设定为100个元素。
-'输入和输出程序需要修改。
-'对这个函数的可靠性需要修改。
 Private Sub btnMKTest_Click()
     
     Dim readData As Range            '存选中的单元格数据。
@@ -112,3 +112,5 @@ Private Function RiOpposite(ByVal index As Integer) As Integer
     RiOpposite = iResult
 
 End Function
+'According to the result of the test in the Excel2013,these codes is OK.
+'-----------------------------------------------------------------------------------------------------------------------------'
